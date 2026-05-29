@@ -49,8 +49,7 @@ read_only = 1
    * **File:** `mysql-bin.000003`
    * **Position:** `843`
    
-   > **(ВСТАВЬТЕ СЮДА СКРИНШОТ №1: Вывод команды SHOW MASTER STATUS; на Мастере)**
-   > *Пример имени файла: `![Master Status](https://github.com/user-attachments/assets/efeb36fb-7ad2-4c41-92e0-c6f7b3fa9580)`*
+ ![Master Status](https://github.com/user-attachments/assets/efeb36fb-7ad2-4c41-92e0-c6f7b3fa9580)
 
 2. На Slave-сервере (`mysql-slave`) была выполнена привязка к источнику с помощью команды `CHANGE MASTER TO` и успешно запущен поток репликации. Потоки ввода-вывода и выполнения SQL перешли в штатный режим работы.
 
@@ -58,8 +57,8 @@ read_only = 1
    * **Slave_SQL_Running:** `Yes`
    * **State:** `Replica has read all relay log; waiting for more updates`
 
-   > **[https://github.com/user-attachments/assets/4bf4db0d-63b1-4685-903f-7aa7a39bcd48]**
-   > **[https://github.com/user-attachments/assets/6ef1c83c-d60d-4f5b-a95e-37ad35bafe72]**
+   (https://github.com/user-attachments/assets/4bf4db0d-63b1-4685-903f-7aa7a39bcd48)
+   (https://github.com/user-attachments/assets/6ef1c83c-d60d-4f5b-a95e-37ad35bafe72)
 
 ---
 
@@ -87,12 +86,12 @@ read_only = 1
   * `Slave_IO_Running: Yes`
   * `Slave_SQL_Running: Yes`
   
-  > **[https://github.com/user-attachments/assets/295224d2-beeb-4ac0-8c7a-aae464766e2d]**
+  (https://github.com/user-attachments/assets/295224d2-beeb-4ac0-8c7a-aae464766e2d)
 
 * **Статус на Сервере 2 (`mysql-slave`):**
   * `Slave_IO_Running: Yes`
   * `Slave_SQL_Running: Yes`
   
-  > **[https://github.com/user-attachments/assets/2122913b-f7bc-4b9e-a264-2fe3177c0c7f]**
+  (https://github.com/user-attachments/assets/2122913b-f7bc-4b9e-a264-2fe3177c0c7f)
 
 ---
