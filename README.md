@@ -49,7 +49,7 @@ read_only = 1
    * **File:** `mysql-bin.000003`
    * **Position:** `843`
    
-   > **[ВСТАВЬТЕ СЮДА СКРИНШОТ №1: Вывод команды SHOW MASTER STATUS; на Мастере]**
+   > **(ВСТАВЬТЕ СЮДА СКРИНШОТ №1: Вывод команды SHOW MASTER STATUS; на Мастере)**
    > *Пример имени файла: `![Master Status](https://github.com/user-attachments/assets/efeb36fb-7ad2-4c41-92e0-c6f7b3fa9580)`*
 
 2. На Slave-сервере (`mysql-slave`) была выполнена привязка к источнику с помощью команды `CHANGE MASTER TO` и успешно запущен поток репликации. Потоки ввода-вывода и выполнения SQL перешли в штатный режим работы.
